@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: Poppins, 'Times New Roman', Times, serif;
+	background-color: azure;
+	min-height: 100vh;
+	
+}
+#navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	z-index:100;
+	background-color: rgb(5, 5, 5);
+	color: aliceblue;
+}
+.name {
+	flex: 0.6;
+	font-size: 24px;
+	font-weight: 600;
+}
+.links {
+	flex: 0.4;
+	font-size: 24px;
+	font-weight: 600;
+	color: aliceblue;
+}
+a {text-decoration: none;
+	padding: 20px;
+}
+
+@media (max-width: 100px) {
+	.name {
+		flex: 0.4;
+	}
+	.links {
+		flex: 0.6;
+	}
+}
+
+#welcome-section {
+text-align: center;
+}
+section {
+	display: flex;
+	justify-content: center;
+	align-items: centre;
+	flex-direction: column;
+	padding: 100px 0px;
+	min-height: 85vh;
+}
+
+.project {
+font-weight: 700;
+padding: 10px;
+}
+.contact-type {
+padding: 10px;
+}
+
+#about {
+	background-color: rgb(196, 211, 247);
+}
+#projects {
+	background-color: rgb(207, 192, 210);
+}
+#contact {
+	background-color: rgb(196, 211, 247);
+}
+h1 {
+	font-size: 60px;
+	margin-bottom: 70px;
+}
+h2 {
+	font-size: 40px;
+	margin-bottom: 70px;
+}
+h3 {
+	font-size: 30px;	
+}
+footer {
+	background-color: rgb(207, 192, 210);
+	font-weight: 500;
+}
